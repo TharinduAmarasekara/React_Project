@@ -1,0 +1,69 @@
+ download software
+ https://git-scm.com/
+ 
+ Step 2: Check git is installed on your system
+   #git --version
+
+Step 3: Run following git commands
+   #git config --global user.name “xxxx”
+   #git config --global user.name
+
+   #git config --global user.email “xxxx”
+   #git config --global user.email
+
+   #git config --global --list
+
+Step 4: Create a demo project/folder & add to git
+
+
+--craete local git repo here
+#git init
+
+--check git remote name
+#git remote -v
+
+--if it is empty add remote
+#git remote add origin http://gitlab.sliit.lk/2022-152/2022-152.git
+
+--check git remote name
+#git remote -v
+	origin  http://gitlab.sliit.lk/2022-043/2022-043.git (fetch)
+	origin  http://gitlab.sliit.lk/2022-043/2022-043.git (push)
+
+--check git branches of repository
+#git branch
+
+--fetch your remote branch with local repo 
+#git fetch
+
+--switch to the branch with using track option. use this to add other branches
+#git checkout -t  origin/IT19192710_Sandamini_W.R
+
+--check git branches of repository
+#git branch
+
+#git switch <branch name>
+git switch <branch name>
+
+
+
+ADD Files to remote repository
+
+#git status
+
+--add all files of the present directory
+#git add .
+
+--commit changes
+#git commit -m <'msg'>
+
+--push to the branch 
+#git push origin IT19192710_Sandamini_W.R
+
+
+
+
+
+
+GET FILES FROM GIT HUB BRANCH
+git pull -r origin <branch name>
